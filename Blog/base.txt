@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Learn Python</title>
+	<meta charset="utf-8" />
+
+	<link rel="stylesheet" href="/static/css/styles.css" type="text/css" />
+	<meta name="viewreport content = "width-device=width, initial-scale=1.0" >
+</head>
+<body class="body" >
+	<header class="mainHead">
+		<img  src="/static/img/logo1.png" width="130" height="130" align="left" ><br><br><br><font id="t1" >Learn Python-A Beginner's Guide</font>
+		<nav><ul>
+		<li><a href="#">Overview&nbsp</a></li>
+		<li><a href="#">Topics&nbsp</a>
+			<ul>
+				<li><a href= "/Blog/{{ post.id }}"> {{ post.title }} </a></li>
+				<li><a href="#">Variable Types</a></li>
+				<li><a href="#">Decision Making</a></li>
+				<li><a href="#">Loops</a></li>
+				<li><a href="#">Handling Errors</a></li>
+				</ul>
+		</li>
+		<li><a href="#">Sample Coding&nbsp</a></li>
+		<li><a href="#"> Practical Exam</a></li>
+		<li><a href="#">References</a></li>
+		<li><a href="#">FAQ</a></li>
+		<li><a href="#">Contact Us</a></li>
+		
+		</ul>
+		</nav>
+	</header>
+	<aside class="sideInfo">
+		
+		
+		<img src="/static/img/side1.jpg" width="200" height="150" align="right"><br><br><br>
+		<br><br><p><i>"Python is powerful... and fast; 
+				plays well with others; 
+				runs everywhere; 
+					friendly & easy to learn; 
+						is Open."</i></p>
+		
+			<!-- <h2>Activities</h2> 
+			{% for post in object_list %}
+			<p>{{ post.date|date:"Y-m-d"}} <a href=#></a></p>
+			{% endfor %} -->
+		
+	</aside>	
+	
+	 
+	<div class="mainContent">
+		<div class="content">
+		<article class="typicalArticle">
+			<header>
+				<h3><a href='#' title="latest post" >Overview</a></h3>
+			</header>
+			
+	
+		
+		<content>
+			<font  size="3" face="Calibri" align="justified">
+			<p>Python is a high-level, interpreted, interactive and object-oriented scripting language.Python was designed to be highly readable which uses English keywords<br>
+				frequently where as other languages use punctuation and it has fewer syntactical constructions than other languages.<br>
+				Python is Interpreted.This means that it is processed at runtime by the interpreter and you do not need to compile your program before executing it. 
+			    This is similar to PERL and PHP.<br><br><br>
+				<i><b>Features</b></i>
+			<ul>		
+			<li>Easy-to-learn: Python has relatively few keywords, simple structure, and a clearly defined syntax. This allows the student to pick up
+							the language in a relatively short period of time.</li>
+			<li>Easy-to-read: Python code is much more clearly defined and visible to the eyes.</li>
+			<li>Easy-to-maintain: Python's success is that its source code is fairly easy-to-maintain.</li>
+			<li>A broad standard library: One of Python's greatest strengths is the bulk of the library is very portable and
+								cross-platform compatible on UNIX, Windows and Macintosh.</li>
+					
+
+
+			</content>
+		</article>
+		</div>
+
+</div>
+<footer class="mainFooter">
+<p align="center">All Rights Reserved.Copyright &copy;2014
+</footer>
+
+
+
+
+
+</body>
+
+
+
+
+</html>

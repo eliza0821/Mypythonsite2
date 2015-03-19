@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Learn Python</title>
+	<meta charset="utf-8" />
+
+	<link rel="stylesheet" href="styles.css" type="text/css" />
+	<meta name="viewreport content =" width-device=width, initial-scale="1.0">
+</head>
+<body class="body" style="background-image:url("img/glass3.jpg")">
+	<header class="mainHead">
+		<img  src="img/logo1.png" width="130" height="130" align="left" ><br><br><br><h1>Learn Python-A Beginner's Guide</h1>
+		<nav><ul>
+		<li><a href="#">Overview</a></li>
+		<li><a href="#">Topics</a>
+			<ul>
+				<li><a href="#">Basic Syntax</a></li>
+				<li><a href="#">Variable Types</a></li>
+				<li><a href="#">Decision Making</a></li>
+				<li><a href="#">Loops</a></li>
+				<li><a href="#">Handling Errors</a></li>
+				</ul>
+		</li>
+		<li><a href="#">Sample Codes</a></li>
+		<li><a href="#">Practical Exam</a></li>
+		<li><a href="#">References</a></li>
+		<li><a href="#">FAQ</a></li>
+		<li><a href="#">Contact Us</a></li>
+		
+		</ul>
+		</nav>
+	</header>
+	<aside class="sideInfo">
+		<article>
+			<h2>Activities</h2>
+			{% for post in object_list %}
+			<p>{{ post.date|date:"Y-m-d"}}<a href="/Blog/{{ post.id}}">{{ post.title }}</p>
+			<p >lalalalallaalallallalllaaaaaaaa</p>
+			<p >lalalalallaalallallalllaaaaaaaa</p>
+			<p >lalalalallaalallallalllaaaaaaaa</p>
+			<p >lalalalallaalallallalllaaaaaaaa</p>
+		</article>
+	</aside>
+	<div class="mainContent">
+		<div class="content">
+		<article class="typicalArticle">
+			<header>
+				<h3><a href='#' title="latest post" >OverView</a></h3>
+			</header>
+			
+			<footer>
+				<p class="postInfo">Posted on 24th Nov.2014</p>
+			</footer>
+			
+		
+		<content>
+			<font  size="3" face="Calibri" align="justified">
+			<p>Python is a high-level, interpreted, interactive and object-oriented scripting language.<br> Python was designed to be highly readable which uses English keywords<br>
+				frequently where as other languages use punctuation and it has fewer syntactical constructions than other languages.<br>
+
+					 Python is Interpreted: This means that it is processed at runtime by the interpreter and you do not need to compile your program before executing it. 
+							This is similar to PERL and PHP.<br>
+					 Python is Interactive: This means that you can actually sit at a Python prompt and interact with the
+							interpreter directly to write your programs.<br>
+					 Python is Object-Oriented: This means that Python supports Object-Oriented style or technique of programming that encapsulates code within objects.<br>
+					 Python is Beginner's Language: Python is a great language for the beginner programmers and supports the development of a wide range of applications <br>
+							from simple text processing to WWW browsers to games.
+		</content>
+</article>
+<header>
+				<h3><a href='#' title="latest post" >Overview Overview again</a></h3>
+			</header>
+			
+			<footer>
+				<p class="postInfo">Posted on 24th Nov.2014</p>
+				</footer>
+				
+			<content>
+			<font  size="3" face="Calibri">
+			Python is a high-level, interpreted, interactive and object-oriented scripting language. Python was designed to be highly readable which uses English keywords
+				frequently where as other languages use punctuation and it has fewer syntactical constructions than other languages.
+
+					 Python is Interpreted: This means that it is processed at runtime by the interpreter and you do not need to compile your program before executing it. 
+							This is similar to PERL and PHP.
+					 Python is Interactive: This means that you can actually sit at a Python prompt and interact with the
+							interpreter directly to write your programs.
+					 Python is Object-Oriented: This means that Python supports Object-Oriented style or technique of programming that encapsulates code within objects.
+					 Python is Beginner's Language: Python is a great language for the beginner programmers and supports the development of a wide range of applications 
+							from simple text processing to WWW browsers to games.
+
+
+			</content>
+		</article>
+		</div>
+
+</div>
+<footer class="mainFooter">
+<p align="center">All Rights Reserved.Copyright &copy;2014
+</footer>
+
+
+
+
+
+</body>
+
+
+
+
+</html>

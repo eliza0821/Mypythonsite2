@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+
+			{% for post in object_list %} 
+			
+			{% endfor %} 
+
+<br>
+<font color="#1A94d6"><b><center>{{ post.title }}</b></font></center>
+<!-- <div class="post_meta" >
+	on {{ post.date }}
+</div> -->
+<div class= "post_body">
+	{{post.body|safe|linebreaks}}
+</div>
+
+{% endblock %}  
